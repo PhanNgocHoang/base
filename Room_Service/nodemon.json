@@ -1,0 +1,8 @@
+  
+{
+    "execMap": {
+      "js": "node -r dotenv/config src/.bin/www dotenv_config_path=./.env.development"
+    },
+    "ext": "js,json",
+    "ignore": ["client/*", "server/src/public/*"]
+  }
